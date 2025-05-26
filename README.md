@@ -1,4 +1,4 @@
-# 🛠️ Django Toolbox
+# 🛠️ Django Toolbox  <img src="https://github.com/user-attachments/assets/d6850d97-a9d6-4a5b-a017-a8d5ae37b44c" width="50" alt="Mascota del temporizador">
 
 Una herramienta gráfica en Python para facilitar tareas comunes de desarrollo en proyectos Django.
 
