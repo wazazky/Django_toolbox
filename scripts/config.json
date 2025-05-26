@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "import_cleanup.py",
+    "archivo": "import_cleanup.py",
+    "modo": "local"
+  },
+  {
+    "nombre": "Actualizar Admin",
+    "archivo": "setCfg.py",
+    "modo": "views"
+  }
+]

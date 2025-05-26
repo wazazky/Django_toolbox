@@ -1,0 +1,18 @@
+Archivos modificados:
+.\import_cleanup.py
+.\manage.py
+.\ArchivoW\asgi.py
+.\ArchivoW\settings.py
+.\ArchivoW\urls.py
+.\ArchivoW\wsgi.py
+.\ArchivoW\__init__.py
+.\Recuerdos\admin.py
+.\Recuerdos\apps.py
+.\Recuerdos\forms.py
+.\Recuerdos\models.py
+.\Recuerdos\setCfg.py
+.\Recuerdos\tests.py
+.\Recuerdos\urls.py
+.\Recuerdos\views.py
+.\Recuerdos\__init__.py
+.\Recuerdos\migrations\__init__.py
