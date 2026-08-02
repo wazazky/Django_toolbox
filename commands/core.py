@@ -1,9 +1,13 @@
 import psutil
 import subprocess
 import threading
+import os
 
 
 runserver_process = None
+
+# Directorio base del proyecto Django (donde está manage.py)
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 def run_command(command, callback=None):
     def task():
@@ -13,6 +17,7 @@ def run_command(command, callback=None):
                 runserver_process = subprocess.Popen(
                     command,
                     shell=True,
+                    cwd=BASE_DIR,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.STDOUT,
                     text=True
@@ -24,6 +29,7 @@ def run_command(command, callback=None):
                 result = subprocess.run(
                     command,
                     shell=True,
+                    cwd=BASE_DIR,
                     capture_output=True,
                     text=True
                 )
